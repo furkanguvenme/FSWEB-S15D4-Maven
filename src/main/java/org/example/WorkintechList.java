@@ -19,7 +19,6 @@ public class WorkintechList extends ArrayList {
     }
 
     public boolean remove(Object obj) {
-        int index = 0;
         Iterator copyList = this.iterator();
 
         while(copyList.hasNext()){
